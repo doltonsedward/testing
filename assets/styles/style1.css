@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+*{
+    font-family: poppins;
+    line-height: 20px;
+}
+
+html{
+    background-color: #F3E8E8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* position: fixed; */
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.layardalam{
+    width: 1335px;
+    margin: auto;
+}
+
+.layarpenuh{
+    width: 100%;
+}
+
+nav{
+    z-index: 100;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+}
+
+nav .logo img{
+    position: absolute;
+    float: left;
+    width: 228.11px;
+    height: 57.16px;
+    left: 61px;
+    top: 40px;
+}
+
+nav .menu{
+    float: right;
+    height: 28px;
+    max-width: 650px;
+    position: absolute;
+    left: 610px;
+    top: 20px;
+}
+
+nav .menu ul{
+    list-style-type: none;
+    display: flex;
+}
+
+nav .menu ul li{
+    list-style-type: none;
+    float: left;
+    line-height: 60px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 0px 16px 0px 16px;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+.layarpenuh {
+    min-height: 100vh;
+    background: url('../image/Group 12.png') no-repeat center fixed; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#welcoming{
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    z-index: 2;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#welcoming img{
+    position: fixed;
+    object-fit: cover;
+    z-index: -10;
+}
+
+#welcoming p {
+    margin-top: 51px;
+    color: #fff;
+}
+
+ #welcoming .openingtext h1 {
+    color: #ffc600;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 54px;
+ }
+
+ #welcoming .openingtext h3 {
+    color: #fff;
+    font-size: 36px;
+ }
+
+ #welcoming .openingtext h2{
+    color: #fff;
+    font-size: 36px;
+ }
+
+ button{
+    background-color: #BC0505;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    border: none;
+    padding: 5px 20px;
+ }
+ button a{
+    color: #fff;
+    text-decoration: none;
+ }
+
+ .about-us {
+    position: relative;
+    min-height: 100vh;
+ }
+
+ .category {
+    width: 100%;
+    position: absolute;
+    top: -16%;
+    transform: translateY(16%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .category div {
+    padding: 0 24px;
+    height: 156px;
+    background-color: #830A0A;
+    display: flex;
+    align-items: center;
+}
+
+.category p {
+    margin-left: 10px;
+    font-weight: 600;
+    color: #fff;
+    font-size: 36px;
+}
+
+.category div:nth-child(2) {
+    background-color: #ffc600;
+
+}
+
+.category div:nth-child(2) p{
+    color: #830A0A;
+}
+
+.about-us .content{
+    display: flex;
+    padding: 100px 45px 40px 50px;
+}
+
+.text{
+    width: 571px;
+    text-align: justify;
+}
+
+.text p:first-child {
+    font-size: 36px;
+    text-decoration: underline;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+.text p:nth-child(2){
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 110%;
+    text-align: left;
+}
+
+section.photo {
+    width: 612px;
+    margin-left: 100px;
+}
+
+.biodata {
+    background: url('../image/Group14.png') no-repeat left;
+    background-size: cover;
+}
+
+.category p:first-child{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: #fff;
+    text-decoration: underline;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.biodata {
+    padding: 20px;
+}
+
+.biodata h3{
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 116%;
+    color: #fff;
+    margin-top: -10px;
+}
+
+.flexcontainer {
+    display: flex;
+}
+
+.Datadiri{
+    /* margin-left: 500px; */
+    color: #fff;
+}
+
+.biodata p {
+    color: white;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+}
+
+.Datadiri p:first-child{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 116%;
+    margin-top: 20px;
+}
+
+.Datadiri p:nth-child(2){
+    font-weight: 400;
+    line-height: 180.5%;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.fotoprofil img{
+    scale: 0.8;
+    padding-left: 100px;
+    margin-top: -45px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    background-color: #830A0A;
+}
+
+.contact .left {
+    margin-left: -180px;
+    margin-top: -30px;
+}
+
+.contact .left img {
+    scale: 0.4
+}
+
+.contact .sosmed {
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+}
+
+.contact .right{
+    margin-left: 300px;
+    margin-top: -7px;
+}
+
+.contact .right p:first-child{
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 54px;
+}
+
+.contact .right p:nth-child(2){
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 200%;
+    margin-right: 100px;
+    margin-top: -20px;
+}
+
+footer {
+    color: white;
+    background-color: #ffc600;
+    text-align: center;
+}
+
+/* article, aside, contact */
+@media screen and (max-width: 400px) {
+    .openingtext h1 {
+        font-size: 25px !important;
+    }
+
+    nav .menu ul {
+        display: none;
+    }
+
+    .about-us .category {
+
+        display: none;
+    }
+
+    .about-us .content {
+        display: grid;
+    }
+
+    .photo {
+        display: none;
+        margin-left: 0;
+    }
+
+    .contact {
+        display: none;
+    }
+
+    .flexcontainer {
+        display: grid;
+    }
+
+    .fotoprofil {
+        margin: 0
+    }
+
+    .fotoprofil img{
+        padding: 0;
+        width: 120px;
+        height: 120px;
+        padding-left: 100px;
+        /* margin-top: -45px; */
+    }
+ }
